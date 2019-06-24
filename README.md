@@ -1,4 +1,4 @@
-# AFPROJECT
+# AF-PROJECT-2019
 Application Framework Project (3rd Year 2nd Semester) - Sri Lanka Institute of Information Technology.
 
 This is 2019-3rd Year-2nd Semester Application Framework final project by <b>Prabuddha Alahakoon, Jananath Banuka, Ravindu Anthony and Nawodya Rathnayake</b>
@@ -24,3 +24,11 @@ $ npm install - This will install all the dependencies
 Run the project
 
 $ npm start - This will execute the project
+
+To access admin interface
+
+http://localhost:3000/admin
+
+To access courseweb
+
+http://localhost:3000/
