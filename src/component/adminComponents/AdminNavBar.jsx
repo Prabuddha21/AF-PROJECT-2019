@@ -18,7 +18,7 @@ class AdminNavBar extends Component{
 
     render() {
         return <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="#">Administer Dashboard</a>
+            <a className="navbar-brand" href="#">Administrators Dashboard</a>
             <button className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
@@ -38,14 +38,14 @@ class AdminNavBar extends Component{
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Manage Administers
+                            Manage Administrators
                         </a>
                         <div className="dropdown-menu">
                             <Link to="/admin/dashboard/admin/add" className="dropdown-item">
-                                Add Administers
+                                Add Administrators
                             </Link>
                             <Link to="/admin/dashboard/admin/update" className="dropdown-item">
-                                Administer Profile
+                                Administrators Profile
                             </Link>
                         </div>
                     </li>
