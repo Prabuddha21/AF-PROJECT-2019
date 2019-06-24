@@ -39,7 +39,7 @@ export default class AdminLogin extends Component {
             <div className="row">
                 <div className="col-md-6 mt-5 mx-auto">
                     <form onSubmit={this.handleSubmit}>
-                        <h1 className="h3 mb-3 font-weight-normal">Please Your Email</h1>
+                        <h1 className="h3 mb-3 font-weight-normal">Please Enter Your Email</h1>
                         <div>
                             <label htmlFor="userName">User Name</label>
                             <input
